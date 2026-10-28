@@ -1,0 +1,8 @@
+baseURL = 'http://localhost/'
+languageCode = 'es-es'
+title = 'Mi Mini Sitio Hugo - 2º ASIR'
+theme = ''
+
+[params]
+  author = 'Estudiante ASIR'
+  description = 'Mini sitio web desarrollado con Hugo para la práctica de IAW y SRI'

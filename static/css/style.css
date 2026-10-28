@@ -1,0 +1,128 @@
+/* Estilos limpios y minimalistas (KISS) para Mi Mini Sitio Hugo */
+:root {
+  --primary: #2563eb;
+  --primary-hover: #1d4ed8;
+  --text: #1f2937;
+  --bg: #f9fafb;
+  --card-bg: #ffffff;
+  --border: #e5e7eb;
+  --meta: #6b7280;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+  color: var(--text);
+  background-color: var(--bg);
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1.5rem 1rem;
+}
+
+.site-header {
+  background: var(--card-bg);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.site-header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.logo a {
+  font-size: 1.25rem;
+  font-weight: 700;
+  text-decoration: none;
+  color: var(--text);
+}
+
+.main-nav a {
+  margin-left: 1rem;
+  text-decoration: none;
+  color: var(--primary);
+  font-weight: 500;
+}
+
+.main-nav a:hover {
+  text-decoration: underline;
+  color: var(--primary-hover);
+}
+
+.separator {
+  border: 0;
+  border-top: 1px solid var(--border);
+  margin: 0;
+}
+
+main.container {
+  background: var(--card-bg);
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  padding: 2.5rem;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.02);
+}
+
+h1, h2, h3 {
+  color: #111827;
+  line-height: 1.3;
+}
+
+a {
+  color: var(--primary);
+}
+
+a:hover {
+  color: var(--primary-hover);
+}
+
+.post-meta {
+  color: var(--meta);
+  font-size: 0.9rem;
+}
+
+.post-date {
+  color: var(--meta);
+  font-size: 0.85rem;
+  margin-left: 0.5rem;
+}
+
+.blog-list {
+  list-style: none;
+  padding: 0;
+}
+
+.blog-item {
+  border-bottom: 1px solid var(--border);
+  padding: 1.5rem 0;
+}
+
+.blog-item:last-child {
+  border-bottom: none;
+}
+
+.blog-item h2 {
+  margin-bottom: 0.25rem;
+}
+
+.read-more {
+  display: inline-block;
+  margin-top: 0.5rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.site-footer {
+  text-align: center;
+  color: var(--meta);
+  font-size: 0.9rem;
+}
