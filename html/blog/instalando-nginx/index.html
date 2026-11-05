@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Desplegando Hugo con Nginx en Debian (SRI P1.2) | Mi Mini Sitio Hugo - 2º ASIR</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+  <header class="site-header">
+  <div class="container">
+    <div class="logo">
+      <a href="/">🚀 <strong>Mi Mini Sitio Hugo - 2º ASIR</strong></a>
+    </div>
+    <nav class="main-nav">
+      <a href="/">Inicio</a>
+      <a href="/sobre-mi/">Sobre mí</a>
+      <a href="/blog/">Blog</a>
+    </nav>
+  </div>
+  <hr class="separator">
+</header>
+
+  <main class="container">
+    <article>
+      <h1>Desplegando Hugo con Nginx en Debian (SRI P1.2)</h1>
+      
+        <p class="post-meta"><em>Publicado el 28/10/2026</em></p>
+      
+      <div class="content">
+        <p>En la práctica de SRI P1.2 hemos dado el salto del servidor de desarrollo (<code>hugo server</code>) a un servidor web de producción real con <strong>Nginx</strong>:</p>
+<ul>
+<li>Compilación de los archivos estáticos mediante el comando <code>hugo</code> hacia la carpeta <code>public/</code>.</li>
+<li>Instalación de Nginx en nuestra máquina virtual Debian 13.</li>
+<li>Configuración de un VirtualHost en <code>/etc/nginx/sites-available/mi-sitio</code>.</li>
+<li>Comprobación de conectividad mediante IP y resolución con <code>/etc/hosts</code> simulando un sistema DNS.</li>
+</ul>
+
+      </div>
+    </article>
+  </main>
+  <footer class="site-footer">
+  <div class="container">
+    <hr class="separator">
+    <p>&copy; 2026 - Mini sitio web con Hugo · IAW & SRI · 2º ASIR</p>
+    <p><small>Generado con Hugo y servido con Nginx</small></p>
+  </div>
+</footer>
+
+</body>
+</html>

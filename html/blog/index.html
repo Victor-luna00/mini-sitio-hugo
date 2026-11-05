@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog y Artículos | Mi Mini Sitio Hugo - 2º ASIR</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+  <header class="site-header">
+  <div class="container">
+    <div class="logo">
+      <a href="/">🚀 <strong>Mi Mini Sitio Hugo - 2º ASIR</strong></a>
+    </div>
+    <nav class="main-nav">
+      <a href="/">Inicio</a>
+      <a href="/sobre-mi/">Sobre mí</a>
+      <a href="/blog/">Blog</a>
+    </nav>
+  </div>
+  <hr class="separator">
+</header>
+
+  <main class="container">
+    <h1>Blog y Artículos</h1>
+    <div class="content">
+      <p>En este blog comparto mis aprendizajes y prácticas del ciclo de ASIR, incluyendo el desarrollo con generadores estáticos y la administración de servidores web.</p>
+
+    </div>
+
+    <ul class="blog-list">
+      
+        <li class="blog-item">
+          <h2><a href="/mini-sitio-hugo/blog/instalando-nginx/">Desplegando Hugo con Nginx en Debian (SRI P1.2)</a></h2>
+          <p class="post-meta"><small>Publicado: 28/10/2026</small></p>
+          <p>En la práctica de SRI P1.2 hemos dado el salto del servidor de desarrollo (hugo server) a un servidor web de producción real con Nginx:
+ Compilación de los archivos estáticos mediante el comando hugo hacia la carpeta public/. Instalación de Nginx en nuestra máquina virtual Debian 13. Configuración de un VirtualHost en /etc/nginx/sites-available/mi-sitio. Comprobación de conectividad mediante IP y resolución con /etc/hosts simulando un sistema DNS.  </p>
+          <a class="read-more" href="/mini-sitio-hugo/blog/instalando-nginx/">Leer más &rarr;</a>
+        </li>
+      
+        <li class="blog-item">
+          <h2><a href="/mini-sitio-hugo/blog/mi-primer-post/">Empezando a jugar en la Web con Hugo (IAW P1.2)</a></h2>
+          <p class="post-meta"><small>Publicado: 28/10/2026</small></p>
+          <p>Hoy he completado las lecciones de Hugo Codex para entender el funcionamiento interno de Hugo sin necesidad de utilizar plantillas externas complejas:
+ Instalación de Hugo: Verificación de la versión en Debian. Estructura HTML básica: Creación de plantillas personalizadas. Gestión de contenidos: Markdown con frontmatter YAML/TOML. Parciales reutilizables: Separación de cabecera y pie de página. Páginas independientes: Creación de la página &ldquo;Sobre mí&rdquo;. Sección de Blog: Listado dinámico de entradas utilizando bucles range.</p>
+          <a class="read-more" href="/mini-sitio-hugo/blog/mi-primer-post/">Leer más &rarr;</a>
+        </li>
+      
+    </ul>
+  </main>
+  <footer class="site-footer">
+  <div class="container">
+    <hr class="separator">
+    <p>&copy; 2026 - Mini sitio web con Hugo · IAW & SRI · 2º ASIR</p>
+    <p><small>Generado con Hugo y servido con Nginx</small></p>
+  </div>
+</footer>
+
+</body>
+</html>

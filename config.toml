@@ -1,8 +1,8 @@
-baseURL = 'http://localhost/'
-languageCode = 'es-es'
+baseURL = 'https://Victor-luna00.github.io/mini-sitio-hugo/'
+languageCode = 'es'
 title = 'Mi Mini Sitio Hugo - 2º ASIR'
-theme = ''
+publishDir = 'html'
 
 [params]
-  author = 'Estudiante ASIR'
+  author = 'Victor'
   description = 'Mini sitio web desarrollado con Hugo para la práctica de IAW y SRI'

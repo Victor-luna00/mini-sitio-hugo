@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog y Artículos on Mi Mini Sitio Hugo - 2º ASIR</title>
+    <link>https://Victor-luna00.github.io/mini-sitio-hugo/blog/</link>
+    <description>Recent content in Blog y Artículos on Mi Mini Sitio Hugo - 2º ASIR</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Wed, 28 Oct 2026 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://Victor-luna00.github.io/mini-sitio-hugo/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Desplegando Hugo con Nginx en Debian (SRI P1.2)</title>
+      <link>https://Victor-luna00.github.io/mini-sitio-hugo/blog/instalando-nginx/</link>
+      <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://Victor-luna00.github.io/mini-sitio-hugo/blog/instalando-nginx/</guid>
+      <description>En la práctica de SRI P1.2 hemos dado el salto del servidor de desarrollo (hugo server) a un servidor web de producción real con Nginx:
+ Compilación de los archivos estáticos mediante el comando hugo hacia la carpeta public/. Instalación de Nginx en nuestra máquina virtual Debian 13. Configuración de un VirtualHost en /etc/nginx/sites-available/mi-sitio. Comprobación de conectividad mediante IP y resolución con /etc/hosts simulando un sistema DNS.  </description>
+    </item>
+    
+    <item>
+      <title>Empezando a jugar en la Web con Hugo (IAW P1.2)</title>
+      <link>https://Victor-luna00.github.io/mini-sitio-hugo/blog/mi-primer-post/</link>
+      <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://Victor-luna00.github.io/mini-sitio-hugo/blog/mi-primer-post/</guid>
+      <description>Hoy he completado las lecciones de Hugo Codex para entender el funcionamiento interno de Hugo sin necesidad de utilizar plantillas externas complejas:
+ Instalación de Hugo: Verificación de la versión en Debian. Estructura HTML básica: Creación de plantillas personalizadas. Gestión de contenidos: Markdown con frontmatter YAML/TOML. Parciales reutilizables: Separación de cabecera y pie de página. Páginas independientes: Creación de la página &amp;ldquo;Sobre mí&amp;rdquo;. Sección de Blog: Listado dinámico de entradas utilizando bucles range.</description>
+    </item>
+    
+  </channel>
+</rss>
