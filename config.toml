@@ -1,7 +1,7 @@
 baseURL = 'https://Victor-luna00.github.io/mini-sitio-hugo/'
 languageCode = 'es'
 title = 'Mi Mini Sitio Hugo - 2º ASIR'
-publishDir = 'html'
+publishDir = 'docs'
 
 [params]
   author = 'Victor'
